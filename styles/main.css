@@ -182,7 +182,7 @@ li {
 }
 /* footer banner related css */
 .footer-banner {
-    height: 270px;
+    height: 17rem;
     width: 1110px;
     gap: 96px;
     align-items: center;
@@ -243,6 +243,35 @@ footer {
     .flex {
         flex-direction: column;
     }
+
+    /* hero-banner related */
+
+    /* sponsor related */
+    .sponsor {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 36px 62px;
+    gap: 30px;
+    margin: 42px auto;
+    border: none;
+}
+    /* card related  */
+    .cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    .none {
+        display: none;
+    }
+    .card-see-more {
+        align-self: end;
+    }
+    .card-title {
+        align-self: center;
+    }
+}
     /* footer banner related responsiveness */
+    .footer-banner {
+        flex-direction: column-reverse;
+    }
+
 
 }
