@@ -136,6 +136,11 @@ li {
     gap: 30px;
     
 }
+.card-title {
+    height: 70px;
+    font-weight: 600;
+    font-size: 28px;
+}
 .card-info {
     border: none;
     flex-direction: column;
@@ -163,6 +168,17 @@ li {
     height: 61px;
     color: var(--p-font-color);
     font-size: 14px;
+}
+.card-footer {
+    height: 24px;
+    font-weight: 600;
+    font-size: 28px;
+    color: var(--primary-btn-color);
+}
+.card-see-more {
+    text-decoration: underline;
+    color: var(--primary-btn-color);
+    font-size: 16px;
 }
 /* footer banner related css */
 .footer-banner {
@@ -223,8 +239,10 @@ footer {
 }
 /* responsive nav related css */
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:640px) {
     .flex {
         flex-direction: column;
     }
+    /* footer banner related responsiveness */
+
 }
