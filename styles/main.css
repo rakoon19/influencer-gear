@@ -25,12 +25,31 @@ html, body{
 .grid {
     display: grid;
 }
+.spacing-middle {
+    margin: 87px auto 0px;
+    width: 1200px;
+}
+.primary-btn {
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    border: none;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    font-weight: 700;
+    justify-content: center;
+}
+
 /* nav related css */
 nav {
     margin: 87px auto 0px;
     width: 1200px;
     height: 52px;
     justify-content: space-between;
+    
 }
 .navbar-logo {
     align-self: center;
@@ -47,6 +66,7 @@ nav {
 }
 a, li {
     text-decoration: none;
+    color: var(--primary-font-color);
 }
 li {
     list-style-type: none;
@@ -58,6 +78,26 @@ li {
 .search-icon {
     width: 24px;
     height: 24px;
+}
+/* hero-banner related css */
+.hero-banner {
+    justify-content: space-around;
+    gap: 133px;
+}
+.hero-banner-content {
+    margin: 70px 0px;
+    width: 582px;
+    flex-direction: column;
+    gap: 16px;
+}
+h2 {
+    font-size: 52px;
+    font-weight: 700;
+}
+.hero-banner-img {
+    background-image: url(../images/circledesign.svg);
+    width: 475px;
+    height: 475px;
 }
 
 /* responsive nav related css */
